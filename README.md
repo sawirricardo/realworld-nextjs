@@ -1,4 +1,4 @@
-#Real world Application implemented with Next.JS by Ricardo Sawir
+# Real world Application implemented with Next.JS by Ricardo Sawir
 
 ## Getting Started
 
