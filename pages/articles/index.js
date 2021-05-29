@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import Layout from '../components/layout';
-import ArticlePreview from '../components/article-preview';
+import Layout from '../../components/layout';
+import ArticlePreview from '../../components/article-preview';
 import Link from 'next/link';
 
 export default function ArticleIndex({ tags }) {
@@ -11,7 +11,6 @@ export default function ArticleIndex({ tags }) {
 	const [articles, setArticles] = useState();
 	useEffect(() => {
 		if (!router.isReady) return;
-
 		axios
 			.get(`https://conduit.productionready.io/api/articles?tag=${router.query.tag}`)
 			.then((res) => setArticles(res.data.articles))

@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
-import Layout from './components/layout';
-import useAuth from './hooks/useAuth';
+import Layout from '../components/layout';
+import useAuth from '../hooks/useAuth';
 export default function UserEdit() {
 	const router = useRouter();
 	const [isSubmitting, setIsSubmitting] = useState(false);

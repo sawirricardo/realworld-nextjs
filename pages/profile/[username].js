@@ -1,7 +1,7 @@
 import axios from 'axios';
-import Layout from '../components/layout';
+import Layout from '../../components/layout';
 import Image from 'next/image';
-import ArticlePreview from '../components/article-preview';
+import ArticlePreview from '../../components/article-preview';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 export default function UserShow({ user, articles }) {

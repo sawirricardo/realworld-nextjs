@@ -1,7 +1,7 @@
-import Layout from './components/layout';
+import Layout from '../components/layout';
 import Link from 'next/link';
 import axios from 'axios';
-import ArticlePreview from './components/article-preview';
+import ArticlePreview from '../components/article-preview';
 export default function Index({ articles, tags }) {
 	return (
 		<Layout>
