@@ -1,6 +1,6 @@
 # Real world Application implemented with Next.JS by Ricardo Sawir
 
-Demo: https://realworld-nextjs-5z01t4ski-sawirricardo.vercel.app
+Demo: https://realworld-nextjs-tau.vercel.app
 
 ## Getting Started
 
